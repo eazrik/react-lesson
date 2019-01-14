@@ -1,12 +1,16 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title></title>
 </head>
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/cjs/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/JSXTransformer.js"></script> -->
 
-    <script type="text/jsx">
+<!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> -->
+
+    <!-- <script type="text/jsx">
         var HelloWorld = React.createClass({
 
             render: function() {
@@ -16,5 +20,24 @@
         });
         React.render(<HelloWorld />, document.body)
     </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div id="like_button_container"></div>
+
+<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
 </body>
 </html>
